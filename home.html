@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>Emily Shrem</title>
+
+    <!-- CSS  -->
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet" >
+</head>
+
+<body id="background" class="scrollspy">
+
+<!-- Pre Loader -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+ 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+ 
+</div>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a class = "black-text" href="#about">About</a></li>
+    <li><a class = "black-text" href="#experience">Experience</a></li>
+    <li><a class = "black-text" href="#work">Work</a></li>
+    <li><a class = "black-text" href="#education">Education</a></li>
+    <li><a class = "black-text" href="#contact">Contact</a></li>
+</ul>
+
+<!-- Modal Structure -->
+<div id="resume_modal" class="modal">
+    <div class="modal-content">
+        <h4>Resume</h4>
+        <img class="col s12 m12 l12" src="img/resume.jpg" alt="">
+    </div>
+
+    <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" id="done">Done</a>
+    </div>
+</div>
+
+<div id="another_modal" class="modal">
+    <div class="modal-content">
+        <h4>Another</h4>
+    </div>
+
+    <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" id="done"><strong>Done</strong></a>
+    </div>
+</div>
+
+
+<!--Navigation-->
+<nav id="nav_f" class="clear_nav" role="navigation">
+        <div class="nav-wrapper">
+            <ul class="right ">
+                  <!-- Dropdown Trigger -->
+                  <li><a class="dropdown-button white-text" href="#!" data-activates="dropdown1"><strong>Emily Shrem</strong><i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Cards  -->
+<div class="container">  
+    <div class="row">
+        <div class="col s12">
+    
+        <div id="top">
+            <br>
+            <p id="quote" class="white-text center"><strong>Some cool quote here Some cool quote here Some cool quote here Some cool quote here</strong></p>
+            <br>
+        </div>
+
+        <div id="about" class="card col s12 m8 l8">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/NY.jpg">
+            </div>
+
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">About<i class="material-icons right">more_vert</i></span>
+            </div>
+
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">About<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div>
+
+        <div id ="buffer" class="card col s12 m3 l3">
+            <div class="card-content">
+              <!-- Modal Trigger -->
+                <div class="center promo promo-example" href="#">
+                    <a class="hover black-text modal-trigger transparent right" href="#resume_modal">Resume</a>
+                </div>                
+                
+                <br><br>
+
+                <div class="center promo promo-example" href="#">
+                    <a class="hover black-text modal-trigger transparent right" href="#another_modal">Another</a>
+                </div>
+                <br>
+            </div>
+
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Experience<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div><br>
+
+
+        <div id ="experience" class="card col s12 m12 l12">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/NY.jpg">
+            </div>
+
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Experience<i class="material-icons right">more_vert</i></span>
+            </div>
+
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Experience<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div><br>
+
+        <div id="work" class="card col s12 m12 l12">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/NY.jpg">
+            </div>
+
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Work<i class="material-icons right">more_vert</i></span>
+            </div>
+
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Work<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div><br>
+
+        <div id="education" class="card col s12 m12 l12">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="img/NY.jpg">
+            </div>
+
+            <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Education<i class="material-icons right">more_vert</i></span>
+            </div>
+
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Education<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+        </div><br>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<footer id="contact" class="page-footer transparent scrollspy">
+    <div class="container">  
+        <div class="row skinny">
+            <div class="col s12">
+                <a class="white-text hover link" href="http://www.linkedin.com/in/jackaanteby">
+                    <i class="small fa fa-linkedin-square hover white-text"></i> Linkedin
+                </a>
+                <a class="white-text hover link" href="http://www.facebook.com/jack.anteby">
+                    <i class="small fa fa-facebook-square hover white-text"></i> Facebook
+                </a>
+                <a class="white-text hover link" href="http://www.emilyshrem.com">
+                    <i class="small fa fa-user hover white-text"></i> Website
+                </a>
+                <a href=""></a>
+                    <h6 class="white-text hover right">emilyshrem@gmail.com</h6>
+                </a>    
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright transparent">
+        <div class="container">
+            <p id="footer" class="right"> © Copyright Jack A. Anteby 2016 | All Rights Reserved. </p>
+        </div>
+    </div>
+</footer>
+
+
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>
+    <script src="js/init.js"></script>
+
+    </body>
+</html>
+
+
+
+
