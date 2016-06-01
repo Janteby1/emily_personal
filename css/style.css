@@ -274,112 +274,17 @@ card {
     height: 20em;
 }
 
+.card {
+    margin-bottom: 3em;
+}
+
+.tall-card-image {
+    height: 30em;
+}
+
 #quote {
     font-style: italic;
     font-size: 2em;
-}
-
-
-
-#center {
-    margin-left: 10em;
-    margin-right: 5em;
-}
-
-#lower {
-    margin-top: 5em;
-}
-
-input, textarea {
-    border-bottom: 1px solid #fff;
-}
-
-nav a.button-collapse {
-    left: -25px;
-}
-
-.card-avatar .waves-effect {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.card-avatar img {
-    height: 150px;
-    width: 150px;
-    border-radius: 75px;
-}
-
-.card-avatar .card-content {
-    text-align: center;
-}
-
-.card .card-content p {
-    margin: 15px 0px;
-}
-
-.card-avatar .card-content i {
-   font-size: 1.5rem;
-}
-
-.card-avatar .card-content .card-title {
-    line-height: 30px !important;
-}
-
-.parallax-container {
-    max-height: 400px;
-}
-
-footer.page-footer {
-    margin-top: 0px !important;
-}
-
-#gem {
-    margin-top:6em;
-}
-
-#beth-torah {
-    margin-top: 8em;
-}
-
-.devicons {
-    font-size: 10em;
-}
-
-.devicons:hover {
-    color:#2196F3;
-}
-
-#jack {
-    height: 30em;
-    width: auto;
-}
-
-#done:hover {
-    color:#2196F3;
-}
-
-#link {
-    margin-left: 3em;
-}
-
-.card:hover {
-    box-shadow: 5px 5px 5px 5px #888888;
-}
-
-.card-avatar img:hover {
-    color:#2196F3;
-}
-
-.link {
-    margin: 1em;
-}
-
-.link:hover {
-    font-style: bold;
-}
-
-.collapsible-header:hover {
-    color:#2196F3 !important;
 }
 
 .hover:hover{
@@ -390,5 +295,8 @@ footer.page-footer {
     margin: 0em;
 }
 
+.card:hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
 
 
