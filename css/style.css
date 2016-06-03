@@ -319,7 +319,7 @@ card {
         max-height: 90vh;
     }
     #title {
-        color: black;
+        color: black !important;
     }
 }
 
