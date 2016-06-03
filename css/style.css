@@ -238,12 +238,12 @@ nav ul a {
 
 #index-banner {
     min-height: 30vh;
-    max-height: 90vh;
+    max-height: 50vh;
     position: relative;
     /*background-color: white;*/
     /*opacity: .65;*/
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .text_h {
@@ -252,6 +252,10 @@ nav ul a {
     font-weight: 100;
     color:white;
     /*height: 70vh;*/
+}
+
+#title {
+    color: white;
 }
 
 #top {
@@ -310,6 +314,14 @@ card {
     .tall-card-image {
     height: 15em;
     }
+    #index-banner {
+        min-height: 60vh;
+        max-height: 90vh;
+    }
+    #title {
+        color: black;
+    }
+
 }
 
 
