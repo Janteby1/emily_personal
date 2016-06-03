@@ -255,7 +255,7 @@ nav ul a {
 }
 
 #title {
-    color: white;
+    color: white !important;
 }
 
 #top {
@@ -321,7 +321,6 @@ card {
     #title {
         color: black;
     }
-
 }
 
 
