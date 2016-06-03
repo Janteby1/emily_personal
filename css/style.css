@@ -13,25 +13,9 @@
     padding: 0 15px;
 }
 
-#index-banner {
-    min-height: 70vh;
-    max-height: 110vh;
-    position: relative;
-    background-color: #2196F3;
-    opacity: .9;
-}
-
 #nav_f{
     box-shadow: none !important; 
     -webkit-box-shadow:none !important;
-}
-
-.text_h {
-    padding: 15% 0;
-    font-size: 6.0em;
-    font-weight: 100;
-    color:white;
-    height: 70vh;
 }
 
 .intro {
@@ -250,6 +234,24 @@ nav ul a {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+#index-banner {
+    min-height: 30vh;
+    max-height: 90vh;
+    position: relative;
+    /*background-color: white;*/
+    /*opacity: .65;*/
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.text_h {
+    /*padding: 15% 0;*/
+    font-size: 3.0em;
+    font-weight: 100;
+    color:white;
+    /*height: 70vh;*/
 }
 
 #top {
