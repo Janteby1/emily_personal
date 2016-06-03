@@ -305,6 +305,11 @@ card {
     box-shadow: 5px 5px 5px 5px #888888;
 }
 
+#resume {
+    height: 60em;
+    width: 45em;
+}
+
 @media only screen and (max-width: 480px) {
     #buffer {
         margin-top: .5em;
