@@ -299,4 +299,15 @@ card {
     box-shadow: 5px 5px 5px 5px #888888;
 }
 
+@media only screen and (max-width: 480px) {
+    #buffer {
+        margin-top: .5em;
+        margin-right: .5em;
+        margin-left: .5em;
+    }
+    .tall-card-image {
+    height: 15em;
+    }
+}
+
 
