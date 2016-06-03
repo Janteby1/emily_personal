@@ -310,6 +310,10 @@ card {
     width: 45em;
 }
 
+#footer {
+    margin-top: 0em;
+}
+
 @media only screen and (max-width: 480px) {
     #buffer {
         margin-top: .5em;
