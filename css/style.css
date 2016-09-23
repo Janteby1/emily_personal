@@ -227,12 +227,9 @@ nav ul a {
 
 
 
-#background: {
-    background-color: gray;
-}
 
-//background {
-  background: url("../img/emily.jpg") no-repeat center fixed; 
+#background {
+    background-color: gray;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
