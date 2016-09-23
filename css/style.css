@@ -227,6 +227,9 @@ nav ul a {
 
 
 
+#background: {
+    background-color: light-gray;
+}
 
 //background {
   background: url("../img/emily.jpg") no-repeat center fixed; 
